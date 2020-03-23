@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         let first = Int()
         let second = Int()
         _ = Int()
-        myLabel.text = "\(String(describing: first)) + \(String(describing: second))"
+        myLabel.text = "\(String(describing: first)) - \(String(describing: second))"
     }
     
     @IBAction func minus(_ sender: Any) {
