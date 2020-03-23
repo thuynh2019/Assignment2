@@ -23,20 +23,28 @@ class ViewController: UIViewController {
     
     @IBAction func first(_ sender: UITextField) {
         _ = Int()
+        _ = Int()
     }
     
     
     @IBAction func second(_ sender: UITextField) {
         _ = Int()
+        _ = Int()
     }
     
     
     @IBAction func plus(_ sender: Any) {
-        myLabel.text = "/(first-second)"
+        let first = Int()
+        let second = Int()
+        _ = Int()
+        myLabel.text = "\(String(describing: first)) + \(String(describing: second))"
     }
     
     @IBAction func minus(_ sender: Any) {
-        myLabel.text = "/(first-second)"
+        let first = Int()
+        let second = Int()
+        _ = Int()
+        myLabel.text = "\(String(describing: first)) - \(String(describing: second))"
     }
     
 }
